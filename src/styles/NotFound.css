@@ -1,25 +1,27 @@
 .notfound-container {
-    background-color: #ffebee;
+    color: #555;
     padding: 40px;
     border-radius: 10px;
+    height: 100vh;
   }
   
   .notfound-title {
     color: #d32f2f;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 13%;
   }
   
   .notfound-text {
     color: #555;
     font-size: 1.2rem;
+    font-weight: 600;
     margin-bottom: 20px;
   }
   
   .notfound-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 100px;
+    margin: auto;
   }
   
   .notfound-btn {
@@ -28,3 +30,7 @@
     margin-top: 20px;
   }
   
+  .main-column {
+    display: flex;
+    flex-direction: column;
+  }

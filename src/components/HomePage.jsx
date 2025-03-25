@@ -1,21 +1,20 @@
 import React from "react";
 import { Button, Card, Container, Row, Col, Image } from "react-bootstrap";
 import "../styles/HomePage.css";
-import welcomeImage from "../assets/welcome-image.jpg";
+import welcomeImage from "../assets/bg-image.jpg";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <Container className="homepage-container">
       <Row className="justify-content-center text-center">
         <Col md={8}>
-          <h1 className="homepage-title">Welcome to Our Store</h1>
-          <p className="homepage-text">
-            Discover the best products at unbeatable prices!
-          </p>
+          <h1 className="homepage-title">Welcome To The Pokémon Store!</h1>
+          <p className="homepage-text">Catch the best deals at unbeatable prices—Gotta Buy 'Em All!</p>
           <Image src={welcomeImage} fluid className="homepage-image" />
-          <Button className="shop-now-btn" variant="primary">
-            Shop Now
-          </Button>
+          <Button className="shop-now-btn" variant="primary" onClick={() => navigate("/not-found")}>Shop Now</Button>
         </Col>
       </Row>
       <Row className="mt-4">
@@ -39,7 +38,7 @@ const HomePage = () => {
           <Card className="homepage-card">
             <Card.Body>
               <Card.Title>Fast Delivery</Card.Title>
-              <Card.Text>Receive your orders quickly with our express shipping.</Card.Text>
+              <Card.Text>Receive orders quickly with our express shipping.</Card.Text>
             </Card.Body>
           </Card>
         </Col>

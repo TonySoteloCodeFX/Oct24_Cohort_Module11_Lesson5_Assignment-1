@@ -1,7 +1,6 @@
 .homepage-container {
-    background-color: #f8f9fa;
     padding: 40px;
-    border-radius: 10px;
+    width: 100%;
     text-align: center;
   }
   
@@ -14,6 +13,7 @@
     color: #555;
     font-size: 1.2rem;
     margin-bottom: 20px;
+    font-weight: 600;
   }
   
   .homepage-image {
