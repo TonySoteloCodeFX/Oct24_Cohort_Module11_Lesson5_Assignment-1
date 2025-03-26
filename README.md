@@ -1,5 +1,14 @@
 # Integrating Bootstrap with React
 
+---
+
+## Mockups
+
+<img src="./src/assets/HomePage.png" width="600">
+<img src="./src/assets/NotFound.png" width="600">
+
+---
+
 ## Component Breakdown
 
 *   **`App.jsx`:**
@@ -33,6 +42,8 @@
         *   `NotFound.css` for custom styling.
         *   `exploding-head.png` from the `assets` directory.
 
+---
+
 ## Styling
 
 *   **`index.css`:**
@@ -44,12 +55,16 @@
 *   **`NotFound.css`:**
     *   Custom styles specific to the `NotFound` component.
 
+---
+
 ## Assets
 
 The `assets` folder contains static images used in the components:
 
 *   `bg-image.jpg`:  Background image for the `HomePage`.
 *   `exploding-head.png`: Image displayed on the `NotFound` page.
+
+---
 
 ## Dependencies
 
@@ -58,3 +73,25 @@ The `assets` folder contains static images used in the components:
 *   **react-router-dom:** Provides the necessary components to navigate between the pages of your app.
 *   **bootstrap:**  CSS framework for responsive and mobile-first front-end web development.
 *   **react-bootstrap:** React components that implement Bootstrap's design.
+*   
+
+---
+
+## Folder Structure
+```
+Oct24_Cohort_Module11_Lesson5_Assignment-1/
+├── src/
+│ ├──assets
+│ ├── bg-image.jpg
+│ ├── exploding-head.png
+│ ├── components/ 
+│ │ ├── HomePage.jsx 
+│ │ ├── NotFound.jsx 
+│ ├── styles/ 
+│ │ ├── HomePage.css
+│ │ ├── NotFound.css
+│ ├── App.jsx
+│ ├── index.css
+│ ├── main.jsx
+└──── index.html 
+```
